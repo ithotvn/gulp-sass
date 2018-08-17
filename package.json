@@ -1,0 +1,56 @@
+{
+  "name": "ithot",
+  "version": "1.0.0",
+  "description": "Ithot training",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gulp sass",
+    "sass": "gulp sass",
+    "gulp-watch": "gulp watch",
+    "gulp-watch-bs": "gulp watch-bs",
+    "gulp-prod": "gulp scss-for-prod"
+  },
+  "engines": {
+    "npm": ">=2.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ithotvn"
+  },
+  "keywords": [
+    "ithot.vn",
+    "css",
+    "gulp",
+    "sass",
+    "browser-sync"
+  ],
+  "author": "hbinstrap",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/ithotvn"
+  },
+  "homepage": "http://training.ithot.local",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-clone": "^1.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "3.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-ignore": "^2.0.2",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-merge": "^0.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "jquery": "^3.2.1",
+    "merge2": "^1.2.0"
+  }
+}

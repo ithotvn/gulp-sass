@@ -1,0 +1,24 @@
+$myColor1: pink;
+$myColor2: #ccc;
+
+.block {
+    display: block;
+    padding: 10px;
+    &--red-bg {
+        background-color: red;
+    }
+    &--border {
+        border: 1px solid $myColor2;
+    }
+    &__heading {
+        font-size: 20px;
+        font-weight: bold;
+        h1 {
+            color: white;
+        }
+    }
+    &__body {
+        background-color: $myColor1;
+        padding: 20px;
+    }
+}
