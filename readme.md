@@ -11,7 +11,7 @@
     
     $ npm run gulp-watch
     
-#### browser syns watch
+#### Browser syns watch
     
     $ npm run gulp-watch-bs
 
